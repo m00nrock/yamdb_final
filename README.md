@@ -1,5 +1,9 @@
 # YaMDb (Yet another Movie Database)
 Стек технологий: Python 3, Django, REST API, Docker
+
+![YaMDB_workflow](https://github.com/m00nrock/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray) ![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
   
 ### Алгоритм регистрации пользователей:  
   
