@@ -113,3 +113,6 @@ docker-compose exec web python manage.py loaddata fixtures.json
 ```
 
 Подробная документация по API доступна по адресу /redoc/
+
+
+тут что-то будет про запуск...
