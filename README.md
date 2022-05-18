@@ -30,11 +30,11 @@
 Клонировать репозиторий и перейти в него в командной строке:  
   
 ```shell
-git clone https://github.com/m00nrock/infra_sp2.git
+git clone https://github.com/m00nrock/yamdb_final.git
 ```
 
 Заполнените .env файл:
-В директории infra_sp2/infra/ создайте .env файл и укажите значения для переменных окружения:
+В директории yamdb_final/infra/ создайте .env файл и укажите значения для переменных окружения:
 Пример заполнения доступен в файле .env.example
 
 - SECRET_KEY
@@ -112,7 +112,7 @@ docker-compose exec web python manage.py collectstatic --no-input
 docker-compose exec web python manage.py loaddata fixtures.json
 ```
 
-Проект доступен по следующим адресам:
-    http://84.252.137.84/admin/ - админ-панель
-    http://84.252.137.84/redoc/ - документация к API
-    http://84.252.137.84/api/v1/ - API
+Доступные адреса:
+http://130.193.34.52/admin/ - админ-панель
+http://130.193.34.52/redoc/ - документация к API
+http://130.193.34.52/api/v1/ - API
