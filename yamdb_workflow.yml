@@ -60,7 +60,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: m00nrock/api_yamdb:latest
+          tags: m00nrock/api_yamdb:0.1
           file: api_yamdb/Dockerfile
       
       - name: send notification push OK
